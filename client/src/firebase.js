@@ -6,11 +6,13 @@ import { initializeApp } from 'firebase/app';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: 'mern-estate.firebaseapp.com',
-  projectId: 'mern-estate',
-  storageBucket: 'mern-estate.appspot.com',
-  messagingSenderId: '1078482850952',
-  appId: '1:1078482850952:web:28f19139ab77246602fb3d',
+  authDomain: "smart-streetlight-project.firebaseapp.com",
+  databaseURL: "https://smart-streetlight-project-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "smart-streetlight-project",
+  storageBucket: "smart-streetlight-project.appspot.com",
+  messagingSenderId: "428326202896",
+  appId: "1:428326202896:web:3352ae3a789e2f1fada495",
+  measurementId: "G-FM5W7BPE3D"
 };
 
 // Initialize Firebase
